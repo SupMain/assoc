@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #f3f2f7;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -102,13 +103,73 @@ body {
     border-bottom-right-radius: 9999px;
 }
 
-/* New classes to center content and limit width */
+/* Classe pour centrer le contenu et limiter la largeur */
 .section-center {
-    width: 60%;
+    max-width: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* Responsive Design */
+
+/* Pour les petits écrans comme les téléphones */
+@media (max-width: 768px) {
+    .section-center {
+        max-width: 90%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .text-5xl {
+        font-size: 2rem;
+    }
+
+    .text-3xl {
+        font-size: 1.25rem;
+    }
+
+    .py-24 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .h-9 {
+        height: 70px;
+    }
+
+    .flex.fixed {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .space-x-4 {
+        space-x: 0;
+        flex-direction: column;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Pour les très petits écrans */
+@media (max-width: 480px) {
+    .text-5xl {
+        font-size: 1.75rem;
+    }
+
+    .text-3xl {
+        font-size: 1rem;
+    }
+
+    .py-24 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .h-9 {
+        height: 60px;
+    }
 }
