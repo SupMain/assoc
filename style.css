@@ -47,7 +47,7 @@ body {
     line-height: 1.75;
 }
 
-.w-3/5 {
+.w-3 {
     width: 60%;
 }
 
@@ -88,7 +88,7 @@ body {
     opacity: 0.6;
 }
 
-.h-[90px] {
+.h-9 {
     height: 90px;
 }
 
