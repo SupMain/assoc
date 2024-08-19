@@ -47,10 +47,6 @@ body {
     line-height: 1.75;
 }
 
-.w-3 {
-    width: 60%;
-}
-
 .mb-6 {
     margin-bottom: 1.5rem;
 }
@@ -64,12 +60,12 @@ body {
     padding-bottom: 6rem;
 }
 
-.flex {
-    display: flex;
-}
-
 .fixed {
     position: fixed;
+}
+
+.flex {
+    display: flex;
 }
 
 .justify-evenly {
@@ -104,4 +100,15 @@ body {
 .rounded-b-full {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
+}
+
+/* New classes to center content and limit width */
+.section-center {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
