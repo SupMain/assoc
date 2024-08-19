@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: #f3f2f7;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -103,23 +102,18 @@ body {
     border-bottom-right-radius: 9999px;
 }
 
-/* Classe pour centrer le contenu et limiter la largeur */
-.section-center {
+/* Classe pour le contenu textuel */
+.content {
     max-width: 60%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 /* Responsive Design */
 
 /* Pour les petits écrans comme les téléphones */
 @media (max-width: 768px) {
-    .section-center {
-        max-width: 90%;
+    .content {
+        max-width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
     }
