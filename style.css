@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.police {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.no-scrollbar {
+    overflow: hidden;
+}
+
+.bg-gray-100 {
+    background-color: #f3f2f7;
+}
+
+.bg-gray-200 {
+    background-color: #e2e2e2;
+}
+
+.bg-blue-600 {
+    background-color: #3694ee;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.text-5xl {
+    font-size: 3rem;
+}
+
+.leading-relaxed {
+    line-height: 1.75;
+}
+
+.w-3/5 {
+    width: 60%;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.rounded-3xl {
+    border-radius: 1.5rem;
+}
+
+.py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.space-x-4 > * + * {
+    margin-left: 1rem;
+}
+
+.opacity-60 {
+    opacity: 0.6;
+}
+
+.h-[90px] {
+    height: 90px;
+}
+
+.inset-x-0 {
+    left: 0;
+    right: 0;
+}
+
+.transform {
+    transform: translateZ(0);
+}
+
+.rounded-b-full {
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
